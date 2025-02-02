@@ -16,21 +16,21 @@ public class RobotContainer {
       .withDriveRequestType(DriveRequestType.OpenLoopVoltage)
       .withSteerRequestType(SteerRequestType.MotionMagicExpo);
    
-  public final static SwerveDrive m_drivetrain = RobotContainer.createDrivetrain();
+  //public final static SwerveDrive m_drivetrain = RobotContainer.createDrivetrain();
          
   static Joystick m_joystick = new Joystick(0);
                     
-    private static SwerveDrive createDrivetrain() {}
+    //private static SwerveDrive createDrivetrain() {}
 
 
 
-    public RobotContainer() {        
+   /*  public RobotContainer() {        
       m_drivetrain.setControl(m_driveRequest
         .withVelocityX(m_joystick.getRawAxis(1))
         .withVelocityY(m_joystick.getRawAxis(1))
         .withRotationalRate(m_joystick.getRawAxis(1)));
     configureBindings();
-  }
+  }*/
 
   private void configureBindings() {}
 
